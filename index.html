@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="css/font-awesome.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/script.js"></script>
+	<!-- para formspree -->
+	<meta name="referrer" content="origin">
 
 
 </head>
@@ -513,7 +515,12 @@
     </section>
 	<section class="">
 
-		<form action="http://formspree.io/matiasjriosb@gmail.com" method="post"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send"></form>
+		<form method="POST" action="http://formspree.io/matiasjriosb@gmail.com">
+		  <input type="email" name="email" placeholder="Your email">
+		  <br>
+		  <textarea name="message" placeholder="Your message"></textarea>
+		  <button type="submit">Send</button>
+</form>
 	</section>
     <!--::blog part end::-->
 
