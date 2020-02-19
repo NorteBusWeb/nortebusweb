@@ -33,11 +33,11 @@
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+	          <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
 	          <li class="nav-item"><a href="about.html" class="nav-link">Sobre nosotros</a></li>
 	          <li class="nav-item"><a href="services.html" class="nav-link">Servicios</a></li>
 	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.html" class="nav-link">Contacto</a></li>
+	          <li class="nav-item active"><a href="contact.html" class="nav-link">Contacto</a></li>
 	          <li class="nav-item cta"><a href="#" class="nav-link">Envíanos un mensaje</a></li>
 	        </ul>
 	      </div>
@@ -162,6 +162,47 @@
         </div>
       </div>
     </section>
+
+
+
+	<section class="form_wrap">
+		<section class="cantact_info">
+            <section class="info_title">
+                <span class="fa fa-user-circle"></span>
+                <h2>HAZ AQUÍ<br>TU CONSULTA</h2>
+            </section>
+            <!--section class="info_items">
+                <p><span class="fa fa-envelope"></span> nortebus@email.com</p>
+                <p><span class="fa fa-mobile"></span> +54 (291) 452-0155</p>
+            </section-->
+        </section>
+
+		<form method="POST" action="http://formspree.io/nortebuscombi@gmail.com" class="form_contact">
+            <h2>Envíanos un mensaje</h2>
+            <div class="user_info">
+				<!--p style="font-family:georgia,garamond,serif;font-size:16px;font-style:b;">
+					Correo electrónico*
+				</p-->
+				<h4>Correo electrónico*</h4>
+                <!--label for="email">Correo electronico *</label-->
+                <input type="email" name="email" required placeholder="Tu email">
+
+
+				<h4>Mensaje*</h4>
+                <!--label for="mensaje">Mensaje *</label-->
+				<textarea name="message" required placeholder="Tu mensaje"></textarea>
+
+                <button type="submit" value="Enviar Mensaje">Enviar mensaje</button>
+            </div>
+        </form>
+	</section>
+
+
+
+
+
+
+
 
     <footer class="ftco-footer ftco-bg-dark ftco-section">
       <div class="container">
