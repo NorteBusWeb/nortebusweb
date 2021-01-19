@@ -68,9 +68,15 @@ hr {
   height: 0;
   overflow: visible; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4,  h6 {
   margin-top: 0;
   margin-bottom: 0.5rem; }
+  
+h5{
+    display: table; /* keep the background color wrapped tight */
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:10px;background-color:red;color:#ffffff;
+}
 
 p {
   margin-top: 0;
@@ -9931,11 +9937,7 @@ div#header-background {
   background: #E25151;
 }
 
-h5 {
-    display: table; /* keep the background color wrapped tight */
-    margin: 0px auto 0px auto; /* keep the table centered */
-    padding:5px;font-size:20px;background-color:green;color:#ffffff;
-}
+
  
 #banner {
     margin: auto;
