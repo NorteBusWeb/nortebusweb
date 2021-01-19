@@ -73,13 +73,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 0.5rem; }
   
 h7{
+	width:100%;
+	text-align: center;
     display: table; /* keep the background color wrapped tight */
-    margin-top: 0;
-	margin-bottom: 0.5rem; /* keep the table centered */
-    padding:5px;
-	font-size:15px;
-	background-color:red;
-	color:#ffffff;
+    margin: 0px auto 0px auto; /* keep the table centered */
+    padding:5px;font-size:15px;background-color:#F13434;color:#ffffff;
 }
 
 p {
