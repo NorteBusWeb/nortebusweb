@@ -9923,9 +9923,8 @@ div#header-background {
   opacity: 0.25;
 }
 
-h1#header-text {
+h5#header-text {
   position: absolute;
-  top: 0;
   z-index: -1;
   border-radius: 10%;
   opacity: 0.25;
