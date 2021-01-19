@@ -9915,6 +9915,32 @@ form.form_contact input[type="submit"]:hover{
     margin-right: 8px;
 }
 
+header{
+    margin-bottom: 0px;
+    width: 100%;
+    height: 100px;
+    background: #77AE35;
+    position: fixed;
+    z-index: 5;
+}
+#logo{
+    margin: all;
+    width:20%;
+    height: 130px;
+    background: url(../imagenes/Logo.png)no-repeat right;
+    float: left;
+    margin-right: 50px;
+}
+ 
+#banner {
+    margin: auto;
+    width:76%;
+    height: 100px;
+    background-image: url(../imagenes/ban2.png) ;
+    float: right;
+    color:white;
+}
+
 #btnClose{
     display: inline-block;
 	padding: 3px 10px;
