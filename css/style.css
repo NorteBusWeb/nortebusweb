@@ -9924,10 +9924,11 @@ div#header-background {
 }
 
 h1#header-text {
-  position: relative;
+  position: absolute;
   top: 0;
   text-align: center;
-  font-size: 3em;
+  font-size: 1em;
+  background: #E25151;
 }
  
 #banner {
